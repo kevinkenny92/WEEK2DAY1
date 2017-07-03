@@ -6,8 +6,6 @@ function getAndPrintHTMLChunks () {
     path: '/http-examples/step1.html'
   };
 
-  var callback = function() {
-  console.log('In response handler callback!');
 
 https.get(requestOptions, function (response) {
   response.setEncoding('utf8');
