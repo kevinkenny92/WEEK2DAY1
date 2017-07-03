@@ -3,7 +3,7 @@ function getAndPrintHTML(){
 // This function should use a buffering technique
 // to append each chunk of data to a variable as it is received,
 //  and then console.log the data once all of the data has been received.
-var totalData = '';
+
 
   var requestOptions = {
     host: 'sytantris.github.io',
